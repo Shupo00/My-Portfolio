@@ -5,7 +5,7 @@ import { Suspense } from "react";
 
 export default function Home() {
   return (
-    <div className="bg-black h-screen w-screen overflow-hidden relative">
+    <div className="bg-black h-screen w-screen overflow-hidden relative flex items-center justify-center">
       <Suspense fallback={null}>
         <ShaderGradientCanvas
           style={{
